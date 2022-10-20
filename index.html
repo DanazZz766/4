@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--http-equiv="refresh"这个是网页自动跳转的意思，1.4是秒数，url=后面是等于要跳转的到的网址-->
+    <meta
+      http-equiv="refresh"
+      content="1.4;url= https://danazzz766.github.io/3/"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music world</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("https://ts1.cn.mm.bing.net/th/id/R-C.0942ccf967c0eb4f95d10757a34de50d?rik=BAx12PJRVVLyOw&riu=http%3a%2f%2fup.bizhitupian.com%2fpic_360%2fd3%2f4c%2fe0%2fd34ce051f2ca32dd7b8d7a4d3aa6e401.jpg&ehk=H65fkKOj%2bq1tT%2fm8weOPBwv%2bK7kVr3a%2ftCweXFxPCRQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+        background-size: cover;
+      }
+      h1 {
+        color: transparent;
+        font-size: 75px;
+        letter-spacing: 5px;
+        background: linear-gradient(to right, #000, #fff, #000);
+        -webkit-background-clip: text;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: move 2s linear infinite;
+      }
+      @keyframes move {
+        0% {
+          background-position: -400%;
+        }
+        100% {
+          background-position: 400%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the world of music</h1>
+  </body>
+</html>
